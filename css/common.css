@@ -4,6 +4,12 @@ a,
 a:focus {font-size: 12px; color: #4bb6c4;}
 a:hover {color: #df667e;}
 
+.toysi-blue-bg a,
+.toysi-blue-bg a:focus {color: #ffffff;}
+
+.toysi-title-link,
+.toysi-title-link:focus {font-size: 14px; margin-top: 22px; text-decoration: underline;}
+
 .toysi-dashed {text-decoration: none; border-bottom: 1px dashed;}
 .toysi-dashed:hover {text-decoration: none;}
 

@@ -41,6 +41,8 @@ a:hover {color: #df667e;}
 .toysi-necessarily {position: relative;}
 .toysi-necessarily .toysi-point {position: absolute; top: 0; right: 5px;}
 .toysi-point {display: inline-block; width: 7px; height: 7px; background-color: #5ec9d7; border-radius: 50% 50% 50% 50%;}
+.has-error .form-control {border-color: #bc2040; color: #bc2040; background-color: rgba(188, 32, 64, 0.11);}
+.has-error .toysi-point {background-color: #bc2040;}
 
 .container {width: 990px;}
 

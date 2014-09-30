@@ -1,0 +1,14 @@
+body {font-family: Tahoma, Verdana, Arial, Helvetica;}
+
+.toysi-margin-logo-center {margin: 31px 0 26px 0; display: inline-block; outline: none;}
+
+.toysi-blue-bg {background-color: #5ec9d7;}
+.toysi-bottom-box-shadow {box-shadow: rgba();}
+
+.toysi-title-page {font-size: 24px; color: #ffffff;}
+.toysi-title-page-height {height: 55px;}
+.toysi-title-page-height .toysi-title-page {line-height: 52px; margin-top: 0; margin-bottom: 0;}
+
+.toysi-login-page-container {margin: 0 0 0 397px;}
+
+.container {width: 990px;}

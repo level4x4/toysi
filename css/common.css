@@ -18,17 +18,7 @@ a:hover {color: #df667e;}
 .toysi-title-page-height {height: 55px;}
 .toysi-title-page-height .toysi-title-page {line-height: 52px; margin-top: 0; margin-bottom: 0;}
 
-.toysi-login-page-container {margin: 0 0 0 397px;}
-.toysi-login-page-container .form-horizontal {margin-top: 24px;}
-.toysi-login-input-width {width: 190px;}
 .toysi-form-control {border-radius: 0; border-color: #c9c9c9; color: #8b8b8b;}
-
-.container .toysi-password-reset-container {width: 330px; padding: 29px 0 22px 0; margin-left: 350px;}
-.toysi-password-reset-container .toysi-title {font-size: 24px; color: #ffffff; margin-top: 0; margin-bottom: 27px;}
-.toysi-password-reset-container .toysi-password-reset-input-width {width: 282px;}
-
-.toysi-password-reset-container .toysi-close {float: right; color: #bc2040; font-size: 18px; text-decoration: none; cursor: pointer; margin-top: 6px;}
-.toysi-password-reset-container .toysi-close:hover {color: #ffffff;}
 
 .toysi-btn {font-size: 24px; border-radius: 0; padding: 4px 20px 5px;}
 .toysi-btn-red {background-color: #bc2040; color: #ffffff;}

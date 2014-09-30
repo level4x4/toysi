@@ -1,0 +1,10 @@
+.container .toysi-password-reset-container {width: 330px; padding: 29px 0 22px 0; margin-left: 350px;}
+.toysi-password-reset-container .toysi-title {font-size: 24px; color: #ffffff; margin-top: 0; margin-bottom: 27px;}
+.toysi-password-reset-container .toysi-password-reset-input-width {width: 282px;}
+
+.toysi-password-reset-container .toysi-close {float: right; color: #bc2040; font-size: 18px; text-decoration: none; cursor: pointer; margin-top: 6px;}
+.toysi-password-reset-container .toysi-close:hover {color: #ffffff;}
+
+.toysi-login-page-container {margin: 0 0 0 397px;}
+.toysi-login-page-container .form-horizontal {margin-top: 24px;}
+.toysi-login-input-width {width: 190px;}

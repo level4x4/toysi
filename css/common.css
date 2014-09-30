@@ -1,8 +1,17 @@
-body {font-family: Tahoma, Verdana, Arial, Helvetica;}
+body {font-family: Tahoma, Verdana, Arial, Helvetica; background: url(../images/body_bg.png) repeat scroll 0 0 transparent;}
+
+a {font-size: 12px; color: #4bb6c4;}
+a:hover {color: #df667e;}
+
+.toysi-dashed {text-decoration: none; border-bottom: 1px dashed;}
+.toysi-dashed:hover {text-decoration: none;}
+
+.toysi-page {border-bottom: 1px solid #ffffff;}
 
 .toysi-margin-logo-center {margin: 31px 0 26px 0; display: inline-block; outline: none;}
 
-.toysi-blue-bg {background-color: #5ec9d7;}
+.toysi-blue-bg {background-color: #5ec9d7; color: #ffffff;}
+.toysi-white-bg {background: url(../images/white_bg.jpg) repeat scroll 0 0 #ffffff;}
 .toysi-bottom-box-shadow {box-shadow: rgba();}
 
 .toysi-title-page {font-size: 24px; color: #ffffff;}
@@ -10,5 +19,43 @@ body {font-family: Tahoma, Verdana, Arial, Helvetica;}
 .toysi-title-page-height .toysi-title-page {line-height: 52px; margin-top: 0; margin-bottom: 0;}
 
 .toysi-login-page-container {margin: 0 0 0 397px;}
+.toysi-login-page-container .form-horizontal {margin-top: 24px;}
+.toysi-login-input-width {width: 190px;}
+.toysi-form-control {border-radius: 0; border-color: #c9c9c9; color: #8b8b8b;}
+
+.container .toysi-password-reset-container {width: 330px; padding: 29px 0 22px 0; margin-left: 350px;}
+.toysi-password-reset-container .toysi-title {font-size: 24px; color: #ffffff; margin-top: 0; margin-bottom: 27px;}
+.toysi-password-reset-container .toysi-password-reset-input-width {width: 282px;}
+
+.toysi-password-reset-container .toysi-close {float: right; color: #bc2040; font-size: 18px; text-decoration: none; cursor: pointer; margin-top: 6px;}
+.toysi-password-reset-container .toysi-close:hover {color: #ffffff;}
+
+.toysi-btn {font-size: 24px; border-radius: 0; padding: 4px 20px 5px;}
+.toysi-btn-red {background-color: #bc2040; color: #ffffff;}
+.toysi-btn-red:hover,
+.toysi-btn-red:focus,
+.toysi-btn-red:active {background-color: #d52e50; color: #ffffff;}
+
+.toysi-pull-left {margin-left: 30px;}
+.toysi-password-reset-container .row,
+.form-horizontal .toysi-form-group {margin-left: 0;}
+.toysi-blue-bg .toysi-form-control {border: 0;}
+
+.toysi-checkbox-control label {font-weight: normal; color: #666666; font-size: 12px;}
+.toysi-checkbox-control input {display: none;}
+.toysi-checkbox-control input + label {position: relative; padding-left: 36px;}
+.toysi-checkbox-control input + label:before {content: ""; background: url("../images/sprite.png") no-repeat scroll 0 -20px transparent; display: block; width: 20px; height: 20px; cursor: pointer; position: absolute; top: 0; left: 3px;}
+.toysi-checkbox-control input:checked + label:before {background-position: 0 0;}
 
 .container {width: 990px;}
+
+.toysi-height-5px {height: 5px;}
+
+.toysi-footer {height: 76px; font-size: 12px; line-height: 74px;}
+
+.toysi-footer .toysi-nav {list-style: none; margin-left: 32px;}
+.toysi-footer .toysi-nav li {float: left; margin-left: 16px;}
+.toysi-footer .toysi-nav li a {color: #ffffff; display: inline-block; padding: 0 9px; cursor: pointer; height: 26px; line-height: 26px; text-decoration: none;}
+.toysi-footer .toysi-nav li.active a,
+.toysi-footer .toysi-nav li a:hover {background-color: #ffffff; color: #5ec9d7;}
+.toysi-footer .toysi-footer-contact {line-height: 14px; margin-top: 16px; margin-left: 54px;}

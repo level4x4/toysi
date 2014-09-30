@@ -54,6 +54,8 @@ a:hover {color: #df667e;}
 
 .toysi-height-5px {height: 5px;}
 
+.toysi-top-line {border-top: 1px solid #c9c9c9;}
+
 .toysi-footer {height: 76px; font-size: 12px; line-height: 74px;}
 
 .toysi-footer .toysi-nav {list-style: none; margin-left: 32px;}

@@ -1,0 +1,34 @@
+.toysi-slider-container {position: relative; width: 745px; height: 200px; overflow: hidden;}
+
+.toysi-slider-container .toysi-bottom-box-shadow {border-right: 10px solid #c9c9c9; width: 745px; overflow: hidden;}
+
+.toysi-slider-content {list-style: none; padding: 0; overflow: hidden; width: 9999px; height: 187px; margin: 0; white-space: nowrap; z-index: 10; position: relative;}
+.toysi-slider-content li {float: left; position: relative;}
+
+.toysi-slider-pages {list-style: none; padding: 0; margin: 0 auto; width: 735px; height: 13px; text-align: center; z-index: 9; position: relative;}
+.toysi-slider-pages li {display: inline-block; width: 46px; height: 7px; background-color: #a6a6a6; padding: 0; margin: 0 2px 9px 2px;}
+.toysi-slider-pages li.active {height: 13px; background-color: #d4da23; margin-bottom: 3px;}
+
+.toysi-shop-info {margin: 0 56px 0 56px; width: 634px; border: 0;}
+.toysi-shop-info > thead > tr > th,
+.toysi-shop-info > tbody > tr > th,
+.toysi-shop-info > tfoot > tr > th,
+.toysi-shop-info > thead > tr > td,
+.toysi-shop-info > tbody > tr > td,
+.toysi-shop-info > tfoot > tr > td {font-size: 12px; vertical-align: top; width: 50%; border-color: #f4f4f4;}
+
+.toysi-shop-info > thead > tr:first-child > th,
+.toysi-shop-info > tbody > tr:first-child > th,
+.toysi-shop-info > tfoot > tr:first-child > th,
+.toysi-shop-info > thead > tr:first-child > td,
+.toysi-shop-info > tbody > tr:first-child > td,
+.toysi-shop-info > tfoot > tr:first-child > td {border-top: 0;}
+
+.toysi-shop-info > thead > tr > th:first-child,
+.toysi-shop-info > tbody > tr > th:first-child,
+.toysi-shop-info > tfoot > tr > th:first-child,
+.toysi-shop-info > thead > tr > td:first-child,
+.toysi-shop-info > tbody > tr > td:first-child,
+.toysi-shop-info > tfoot > tr > td:first-child {border-right: 1px solid #f4f4f4;}
+
+.toysi-shop-info .lead {color: #444545;}

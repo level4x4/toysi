@@ -1,0 +1,22 @@
+.toysi-product-list-container {width: 562px;}
+
+.toysi-sort-container {position: relative; z-index: 10; padding: 8px 15px; border-bottom: 1px solid #f4f4f4; margin: 0 12px;}
+.toysi-sort-container a {color: #666666; position: relative; padding-right: 21px; margin-right: 15px;}
+.toysi-sort-container a.toysi-sort {color: #be2746; text-decoration: none;}
+.toysi-sort-container a.toysi-sort:hover {text-decoration: underline;}
+.toysi-sort-container a.toysi-sort:after {content: ""; position: absolute; right: 0; width: 0; height: 0; border-left: 9px solid transparent; border-right: 9px solid transparent; border-bottom: 0; border-top: 0; top: 4px;}
+.toysi-sort-container a.toysi-sort-up.toysi-sort:after {border-bottom: 9px solid #be2746;}
+.toysi-sort-container a.toysi-sort-down.toysi-sort:after {border-top: 9px solid #be2746;}
+
+.toysi-download-product-btn-container {position: relative; z-index: 10; margin: 33px 0 36px 0;}
+
+.toysi-new-product-right {margin: 9px 8px 0 0; background-color: #ffffff;}
+.toysi-new-product-right__title {color: #5ec9d7; font-size: 18px; font-weight: normal; margin: 11px;}
+
+.toysi-new-product-right ul {list-style: none; padding: 0 0 15px 0; margin: 0;}
+.toysi-new-product-right ul li {width: 172px; border: 1px solid #ffffff;}
+.toysi-new-product-right ul li img {text-align: center;}
+.toysi-new-product-right ul li p {margin: 0 15px; padding-bottom: 15px; line-height: 12px; border-bottom: 1px solid #e8e8e8;}
+.toysi-new-product-right ul li p a {color: #72bf46;}
+.toysi-new-product-right ul li:last-child p {border-bottom: 0;}
+.toysi-new-product-right ul li:hover {border: 1px solid #d4da23; box-shadow: 0 0 5px rgba(0, 0, 0, 0.20); position: relative; z-index: 10;}

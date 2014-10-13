@@ -39,3 +39,24 @@
 .toysi-title-category-container a {color: #72bf46; text-decoration: underline;}
 
 .toysi-action-carousel-container {background-color: #b0dce1; padding-top: 10px;}
+
+.toysi-map-container {overflow: hidden; padding-bottom: 32px;}
+.toysi-map-container,
+.toysi-map-container h1 {background-color: #ffffff; margin-top: 0;}
+.toysi-map-container h1 {font-size: 24px; font-weight: normal; color: #444545; padding-top: 38px; padding-left: 56px; margin-bottom: 24px;}
+.toysi-margin-left-56 {margin-left: 56px;}
+.toysi-map-container h2 {font-size: 18px; font-weight: normal;}
+
+.toysi-num-contact {font-size: 54px; color: #d4da23;}
+.toysi-text-contact {width: 315px; font-size: 12px; padding-left: 20px; padding-top: 22px;}
+.toysi-phones-contact {font-size: 12px; margin-left: 10px;}
+.toysi-phone-image {margin-top: 12px;}
+
+.toysi-action-carousel-container .toysi-product-list-container ul {overflow: hidden; height: 260px;}
+.toysi-action-carousel-container .toysi-product-list-container ul li {height: 260px;}
+.toysi-action-carousel-container .toysi-product-list-container ul li > div {min-height: 260px; padding: 10px;}
+.toysi-action-carousel-container .toysi-product-list-container ul li:hover > div {margin: 0; width: 175px; height: 260px; border: 5px solid #bc2040; padding: 5px;}
+.toysi-action-carousel-container .toysi-product-list-container ul li:hover .toysi-action-product {top: -5px; left: -5px;}
+.toysi-action-carousel-container .toysi-product-list-container__price {margin-top: 8px;}
+.toysi-action-carousel-container .toysi-product-list-container__old-price {font-size: 14px; font-family: "Trebuchet MS", sans-serif; color: #87b1b6; position: relative; display: block; min-width: 55px; text-align: center; line-height: 30px; margin-top: 12px;}
+.toysi-action-carousel-container .toysi-product-list-container__old-price:before {content: ""; display: block; position: absolute; width: 55px; height: 30px; background: url(../images/old-price.png) no-repeat 0 0; top: 0; left: 0; right: 0; bottom: 0; margin: auto;}

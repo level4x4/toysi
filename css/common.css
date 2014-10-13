@@ -70,7 +70,7 @@ a:hover {color: #df667e;}
 .toysi-product-list-container ul li > div .toysi-hide {display: none;}
 .toysi-product-list-container ul li:hover > div .toysi-hide {display: block;}
 
-.toysi-product-list-container__title {font-size: 12px; color: #72bf46; line-height: 12px; text-align: center; display: inline-block;}
+.toysi-product-list-container__title {font-size: 12px; color: #72bf46; line-height: 12px; text-align: center; display: inline-block; height: 38px; overflow: hidden;}
 .toysi-product-list-container__to-store {font-size: 11px; color: #909090; margin: 0;}
 .toysi-product-list-container__price {font-size: 24px; color: #be2746;}
 .toysi-product-list-container__price small {font-size: 12px;}
@@ -85,6 +85,8 @@ a:hover {color: #df667e;}
 .toysi-product-list-container__control-up:hover {border-bottom-color: #bc2040;}
 .toysi-product-list-container__control-down {border-top: 12px solid #d4da23; margin-top: 3px;}
 .toysi-product-list-container__control-down:hover {border-top-color: #bc2040;}
+
+.toysi-action-product {width: 25px; height: 25px; position: absolute; top: 0; left: 0; background: url(../images/sprite.png) no-repeat -25px -40px; z-index: 109;}
 
 .toysi-product-list-container__comment-title {font-size: 11px; color: #74c048; margin-top: 10px;}
 .toysi-product-list-container__text {width: 155px; height: 46px; resize: none; color: #8b8b8b; font-size: 11px; padding: 5px;}

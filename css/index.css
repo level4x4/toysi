@@ -60,3 +60,12 @@
 .toysi-action-carousel-container .toysi-product-list-container__price {margin-top: 8px;}
 .toysi-action-carousel-container .toysi-product-list-container__old-price {font-size: 14px; font-family: "Trebuchet MS", sans-serif; color: #87b1b6; position: relative; display: block; min-width: 55px; text-align: center; line-height: 30px; margin-top: 12px;}
 .toysi-action-carousel-container .toysi-product-list-container__old-price:before {content: ""; display: block; position: absolute; width: 55px; height: 30px; background: url(../images/old-price.png) no-repeat 0 0; top: 0; left: 0; right: 0; bottom: 0; margin: auto;}
+
+.toysi-carousel-control {height: 51px; position: relative; text-align: center;}
+.toysi-carousel-control .toysi-carousel-control__prev {width: 0; height: 0; border-top: 11px solid transparent; border-right: 11px solid #ffffff; border-bottom: 11px solid transparent; border-left: 0; background-color: transparent; display: inline-block;}
+.toysi-carousel-control .toysi-carousel-control__next {width: 0; height: 0; border-top: 11px solid transparent; border-left: 11px solid #ffffff; border-bottom: 11px solid transparent; border-right: 0; background-color: transparent; display: inline-block;}
+.toysi-carousel-control__pager {display: inline-block;}
+.toysi-carousel-control__pager a {padding: 0; line-height: 0; position: relative;}
+.toysi-carousel-control__pager a span {border-radius: 50%; background-color: #87b1b6; width: 16px; height: 16px; display: inline-block; margin: 0 10px; position: relative; font-size: 0; padding: 0; position: relative; top: -7px;}
+.toysi-carousel-control__pager a.selected span {width: 22px; height: 22px; background-color: #72bf46; margin: 0 7px; top: -10px;}
+.toysi-carousel-control__pager a span {}

@@ -56,7 +56,50 @@ a:hover {color: #df667e;}
 .toysi-nav-container ul li.toysi-open ul li.active a {font-weight: bold; color: #be2746; background-color: #d4da23;}
 
 .toysi-content-relative {width: 745px; height: 100%;}
-.toysi-content {width: 745px; background-color: #e8e8e8; box-shadow: 3px 0 5px rgba(0, 0, 0, 0.20), -3px 0 5px rgba(0, 0, 0, 0.20); position: absolute; height: 100%; z-index: 10;}
+.toysi-bg-content {background-color: #e8e8e8; width: 745px; position: absolute; height: 100%;}
+.toysi-content {width: 745px; box-shadow: 3px 0 5px rgba(0, 0, 0, 0.20), -3px 0 5px rgba(0, 0, 0, 0.20); position: relative; z-index: 11;}
+
+
+.toysi-product-list-container {margin: 0 1px 0 0; clear: both;}
+.toysi-product-list-container ul {list-style: none; padding: 0; margin: 9px 0 0 12px;}
+.toysi-product-list-container ul li {display: block; float: left; width: 175px; min-height: 275px; height: 275px; max-height: 405px; margin: 0 8px 10px 0; position: relative; overflow: hidden;}
+.toysi-product-list-container ul li > div {background-color: #ffffff; width: 100%; min-height: 291px; padding: 10px;}
+.toysi-product-list-container ul li:hover {overflow: visible;}
+.toysi-product-list-container ul li:hover > div {border: 8px solid #d4da23; width: 191px; min-height: 291px; max-height: 421px; margin: -8px 0 0 -8px; box-shadow: 0 0 5px rgba(0, 0, 0, 0.20); position: relative; z-index: 110;}
+
+.toysi-product-list-container ul li > div .toysi-hide {display: none;}
+.toysi-product-list-container ul li:hover > div .toysi-hide {display: block;}
+
+.toysi-product-list-container__title {font-size: 12px; color: #72bf46; line-height: 12px; text-align: center; display: inline-block;}
+.toysi-product-list-container__to-store {font-size: 11px; color: #909090; margin: 0;}
+.toysi-product-list-container__price {font-size: 24px; color: #be2746;}
+.toysi-product-list-container__price small {font-size: 12px;}
+.toysi-product-list-container__in-cart {background-color: transparent; border: 0; font-size: 11px; color: #444545; position: relative; padding: 0 0 0 30px;}
+.toysi-product-list-container__in-cart:before {content: ""; display: block; width: 25px; height: 22px; background: url(../images/sprite.png) no-repeat 0 -40px; position: absolute; left: 0; top: -4px;}
+.toysi-product-list-container__in-cart:hover {text-decoration: underline;}
+
+.toysi-product-list-container__counter-container {position: relative; margin-top: 15px;}
+.toysi-product-list-container__counter {background-color: #efefef; width: 53px; text-align: center; height: 59px; position: absolute; right: 0; top: -55px; margin: 0; padding: 7px 0 0 0; border-radius: 4px 4px 0 0;}
+.toysi-product-list-container__control {width: 0; height: 0; background-color: transparent; border-left: 12px solid transparent; border-right: 12px solid transparent; border-top: 0; border-bottom: 0; padding: 0; margin: 0 auto; display: block;}
+.toysi-product-list-container__control-up {border-bottom: 12px solid #d4da23; margin-bottom: -2px;}
+.toysi-product-list-container__control-up:hover {border-bottom-color: #bc2040;}
+.toysi-product-list-container__control-down {border-top: 12px solid #d4da23; margin-top: 3px;}
+.toysi-product-list-container__control-down:hover {border-top-color: #bc2040;}
+
+.toysi-product-list-container__comment-title {font-size: 11px; color: #74c048; margin-top: 10px;}
+.toysi-product-list-container__text {width: 155px; height: 46px; resize: none; color: #8b8b8b; font-size: 11px; padding: 5px;}
+
+.toysi-product-list-container__input-count {width: 42px; height: 15px; font-size: 10px; color: #444545;}
+
+.toysi-product-list-container__buttons-count {background-color: #efefef; border-radius: 4px 0 4px 4px; padding: 8px 8px 8px 0;}
+.toysi-product-list-container__buttons-count button {border-radius: 4px 4px 4px 4px; background-color: #d4da23; color: #000000; border: 0; width: 37px; height: 23px; line-height: 23px; font-size: 12px; padding: 0; margin-left: 9px;}
+.toysi-product-list-container__buttons-count button:hover {background-color: #bc2040; color: #ffffff;}
+
+.toysi-product-list-container__user-no-joined {text-align: center; padding-top: 30px;}
+.toysi-product-list-container__user-no-joined p {font-size: 12px; line-height: 24px;}
+.toysi-product-list-container__user-no-joined .toysi-btn {display: none;}
+.toysi-product-list-container__user-no-joined:hover .toysi-btn {display: inline-block;}
+.toysi-product-list-container__user-no-joined:hover p {display: none;}
 
 .toysi-btn {font-size: 24px; border-radius: 0; padding: 4px 20px 5px;}
 .toysi-btn-red {background-color: #bc2040; color: #ffffff;}

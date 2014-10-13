@@ -32,3 +32,10 @@
 .toysi-shop-info > tfoot > tr > td:first-child {border-right: 1px solid #f4f4f4;}
 
 .toysi-shop-info .lead {color: #444545;}
+
+.toysi-title-category-container {background-color: #ffffff; margin: 0 9px 0 12px ; padding: 0 14px; line-height: 31px;}
+.toysi-title-category-container h1 {font-size: 18px; font-weight: normal; color: #5ec9d7; display: inline-block; margin: 0; line-height: 28px;}
+.toysi-title-category-container span {font-size: 11px; line-height: 29px;}
+.toysi-title-category-container a {color: #72bf46; text-decoration: underline;}
+
+.toysi-action-carousel-container {background-color: #b0dce1; padding-top: 10px;}

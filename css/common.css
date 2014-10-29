@@ -166,6 +166,10 @@ a:hover {color: #df667e;}
 
 .toysi-quantity {margin-right: 5px;}
 
+.toysi-search-title {position: relative; z-index: 10; margin-left: 12px;}
+.toysi-search-title h1 {color: #72bf46; font-size: 24px; font-weight: normal;}
+.toysi-search-title h2 {color: #444545; font-size: 24px; font-weight: normal;}
+
 .toysi-user-login a,
 .toysi-user-login a:focus {color: #ffffff; text-decoration: underline; margin-left: 12px;}
 .toysi-user-login a:hover {text-decoration: none;}

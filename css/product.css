@@ -1,0 +1,9 @@
+.toysi-product-title {color: #72bf46; font-size: 24px; font-weight: normal; margin-left: 25px; margin-top: 10px;}
+.toysi-big-image-product {margin-left: 12px;}
+.toysi-mini-slides-gallery {width: 512px;}
+.toysi-mini-slides-gallery ul {overflow: hidden; clear: both; list-style: none; padding: 0; margin: 0 0 0 2px;}
+.toysi-mini-slides-gallery ul li {margin-left: 10px; margin-top: 12px; float: left; cursor: pointer;  }
+.toysi-mini-slides-gallery ul li.active img,
+.toysi-mini-slides-gallery ul li:hover img {border: 3px solid #d4da23;}
+
+.toysi-action-carousel-container {margin-top: 12px; padding-top: 10px; background-color: #b0dce1;}

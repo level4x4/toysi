@@ -33,11 +33,6 @@
 
 .toysi-shop-info .lead {color: #444545;}
 
-.toysi-title-category-container {background-color: #ffffff; margin: 0 9px 0 12px ; padding: 0 14px; line-height: 31px;}
-.toysi-title-category-container h1 {font-size: 18px; font-weight: normal; color: #5ec9d7; display: inline-block; margin: 0; line-height: 28px;}
-.toysi-title-category-container span {font-size: 11px; line-height: 29px;}
-.toysi-title-category-container a {color: #72bf46; text-decoration: underline;}
-
 .toysi-action-carousel-container {background-color: #b0dce1; padding-top: 10px;}
 
 .toysi-map-container {overflow: hidden; padding-bottom: 32px;}
@@ -51,22 +46,3 @@
 .toysi-text-contact {width: 315px; font-size: 12px; padding-left: 20px; padding-top: 22px;}
 .toysi-phones-contact {font-size: 12px; margin-left: 10px;}
 .toysi-phone-image {margin-top: 12px;}
-
-.toysi-action-carousel-container .toysi-product-list-container ul {overflow: hidden; height: 260px;}
-.toysi-action-carousel-container .toysi-product-list-container ul li {height: 260px;}
-.toysi-action-carousel-container .toysi-product-list-container ul li > div {min-height: 260px; padding: 10px;}
-.toysi-action-carousel-container .toysi-product-list-container ul li:hover > div {margin: 0; width: 175px; height: 260px; border: 5px solid #bc2040; padding: 5px;}
-.toysi-action-carousel-container .toysi-product-list-container ul li:hover .toysi-action-product {top: -5px; left: -5px;}
-.toysi-action-carousel-container .toysi-product-list-container__price {margin-top: 8px;}
-.toysi-action-carousel-container .toysi-product-list-container__old-price {font-size: 14px; font-family: "Trebuchet MS", sans-serif; color: #87b1b6; position: relative; display: block; min-width: 55px; text-align: center; line-height: 30px; margin-top: 12px;}
-.toysi-action-carousel-container .toysi-product-list-container__old-price:before {content: ""; display: block; position: absolute; width: 55px; height: 30px; background: url(../images/old-price.png) no-repeat 0 0; top: 0; left: 0; right: 0; bottom: 0; margin: auto;}
-
-.toysi-carousel-control {height: 51px; position: relative; text-align: center;}
-.toysi-carousel-control .toysi-carousel-control__prev {width: 0; height: 0; border-top: 11px solid transparent; border-right: 11px solid #ffffff; border-bottom: 11px solid transparent; border-left: 0; background-color: transparent; display: inline-block;}
-.toysi-carousel-control .toysi-carousel-control__prev:hover {border-right-color: #bc2040;}
-.toysi-carousel-control .toysi-carousel-control__next {width: 0; height: 0; border-top: 11px solid transparent; border-left: 11px solid #ffffff; border-bottom: 11px solid transparent; border-right: 0; background-color: transparent; display: inline-block;}
-.toysi-carousel-control .toysi-carousel-control__next:hover {border-left-color: #bc2040;}
-.toysi-carousel-control__pager {display: inline-block;}
-.toysi-carousel-control__pager a {padding: 0; line-height: 0; position: relative;}
-.toysi-carousel-control__pager a span {border-radius: 50%; background-color: #87b1b6; width: 16px; height: 16px; display: inline-block; margin: 0 10px; position: relative; font-size: 0; padding: 0; position: relative; top: -7px;}
-.toysi-carousel-control__pager a.selected span {width: 22px; height: 22px; background-color: #72bf46; margin: 0 7px; top: -10px;}

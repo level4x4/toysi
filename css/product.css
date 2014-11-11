@@ -1,5 +1,5 @@
 .toysi-product-title {color: #72bf46; font-size: 24px; font-weight: normal; margin-left: 25px; margin-top: 10px;}
-.toysi-big-image-product {margin-left: 12px;}
+.toysi-big-image-product {margin-left: 12px; position: relative;}
 .toysi-mini-slides-gallery {width: 512px;}
 .toysi-mini-slides-gallery ul {overflow: hidden; clear: both; list-style: none; padding: 0; margin: 0 0 0 2px;}
 .toysi-mini-slides-gallery ul li {margin-left: 10px; margin-top: 12px; float: left; cursor: pointer;  }
@@ -7,3 +7,25 @@
 .toysi-mini-slides-gallery ul li:hover img {border: 3px solid #d4da23;}
 
 .toysi-action-carousel-container {margin-top: 12px; padding-top: 10px; background-color: #b0dce1;}
+
+.toysi-new-product {line-height: 21px; height: 21px; padding: 0 12px; background-color: #be2746; color: #ffffff; font-size: 12px; position: absolute; top: 0; left: 15px; cursor: default;}
+
+.toysi-product-container__counter {background-color: #ffffff; width: 209px; margin-right: 12px; margin-left: 12px; font-size: 12px;}
+.toysi-product-container__counter .toysi-base-padding {padding: 11px 11px 11px 11px;}
+.toysi-product-container__counter .toysi-base-padding.toysi-correct-padding {padding: 0 11px 11px 11px;}
+.toysi-product-container__counter .toysi-base-padding p {padding: 0; margin: 0;}
+.toysi-product-container__counter .toysi-base-padding p.toysi-text {color: #909090;}
+
+.toysi-product-container__counter .toysi-line {height: 1px; width: 100%; background-color: #e8e8e8;}
+
+.toysi-product-price {font-size: 40px; color: #be2746;}
+.toysi-product-price small {font-size: 21px;}
+
+.toysi-product-list-container__counter {position: static; background-color: transparent; padding: 0; height: auto; width: auto;}
+.toysi-product-list-container__control-up {margin-bottom: 1px;}
+.toysi-product-list-container__buttons-count {background-color: transparent; padding: 0;}
+.toysi-product-list-container__buttons-count button {margin-left: 8px; margin-top: 12px;}
+
+.toysi-btn-cart {height: 41px; font-size: 14px; position: relative; padding-left: 40px;}
+.toysi-btn-cart:before {content: ""; display: inline-block; width: 25px; height: 22px; background: url(../images/sprite.png) no-repeat 0 -62px; position: absolute; left: 10px;}
+

@@ -4,6 +4,8 @@ a,
 a:focus {font-size: 12px; color: #4bb6c4; cursor: pointer; outline: none;}
 a:hover {color: #df667e;}
 
+._color_green {color: #74c048;}
+
 .toysi-blue-bg a,
 .toysi-blue-bg a:focus {color: #ffffff;}
 

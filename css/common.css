@@ -216,3 +216,10 @@ a:hover {color: #df667e;}
 .toysi-breadcrumb .breadcrumb > li {font-size: 12px;}
 .toysi-breadcrumb .breadcrumb > li + li:before {content: "— "; color: #666666;}
 .toysi-breadcrumb .breadcrumb > li a {text-decoration: underline;}
+
+.toysi-page-container {position: relative; z-index: 10; text-align: center;}
+.toysi-page-container a {font-size: 20px; text-decoration: none; display: inline-block; height: 35px; padding: 0 13px; line-height: 35px; margin-left: -4px; background-color: #be2746; color: #ffffff; cursor: default;}
+.toysi-page-container a.toysi-prev,
+.toysi-page-container a.toysi-next {color: #3e3e3e; background-color: transparent;}
+.toysi-page-container a:link {background-color: transparent; color: #5fc9d7; cursor: pointer;}
+.toysi-page-container a:hover:link {color: #be2746;}

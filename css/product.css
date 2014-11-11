@@ -10,12 +10,15 @@
 
 .toysi-new-product {line-height: 21px; height: 21px; padding: 0 12px; background-color: #be2746; color: #ffffff; font-size: 12px; position: absolute; top: 0; left: 15px; cursor: default;}
 
+.toysi-terms-container,
 .toysi-product-container__counter {background-color: #ffffff; width: 209px; margin-right: 12px; margin-left: 12px; font-size: 12px;}
+.toysi-terms-container .toysi-base-padding,
 .toysi-product-container__counter .toysi-base-padding {padding: 11px 11px 11px 11px;}
 .toysi-product-container__counter .toysi-base-padding.toysi-correct-padding {padding: 0 11px 11px 11px;}
 .toysi-product-container__counter .toysi-base-padding p {padding: 0; margin: 0;}
 .toysi-product-container__counter .toysi-base-padding p.toysi-text {color: #909090;}
 
+.toysi-terms-container .toysi-line,
 .toysi-product-container__counter .toysi-line {height: 1px; width: 100%; background-color: #e8e8e8;}
 
 .toysi-product-price {font-size: 40px; color: #be2746;}
@@ -29,3 +32,11 @@
 .toysi-btn-cart {height: 41px; font-size: 14px; position: relative; padding-left: 40px;}
 .toysi-btn-cart:before {content: ""; display: inline-block; width: 25px; height: 22px; background: url(../images/sprite.png) no-repeat 0 -62px; position: absolute; left: 10px;}
 
+.toysi-terms-container {margin-top: 12px;}
+.toysi-terms-container .toysi-title-section {font-size: 18px; color: #5ec9d7; position: relative; padding-left: 30px;}
+.toysi-terms-container .toysi-title-section:before {content: ""; display: inline-block; width: 26px; background: url(../images/sprite.png) no-repeat; position: absolute; left: 0; top: 50%;}
+.toysi-terms-container .toysi-cash-icon.toysi-title-section:before {height: 21px; background-position: -50px -40px; margin-top: -10px;}
+.toysi-terms-container .toysi-delivery-icon.toysi-title-section:before {height: 11px; background-position: -50px -61px; margin-top: -5px;}
+.toysi-terms-container .toysi-safeguards-icon.toysi-title-section:before {width: 25px; height: 16px; background-position: -25px -65px; margin-top: -8px;}
+.toysi-terms-container .toysi-base-padding ul {padding-left: 0; list-style: none;}
+.toysi-terms-container .toysi-base-padding ul li:before {content: "— ";}

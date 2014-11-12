@@ -223,3 +223,8 @@ a:hover {color: #df667e;}
 .toysi-page-container a.toysi-next {color: #3e3e3e; background-color: transparent;}
 .toysi-page-container a:link {background-color: transparent; color: #5fc9d7; cursor: pointer;}
 .toysi-page-container a:hover:link {color: #be2746;}
+
+.toysi-page-title,
+.toysi-product-title {color: #72bf46; font-size: 24px; font-weight: normal; margin-left: 25px; margin-top: 10px;}
+
+.toysi-section-title {font-size: 24px; font-weight: normal; margin-left: 25px; margin-top: 10px; color: #444545;}

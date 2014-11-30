@@ -124,6 +124,12 @@ a:hover {color: #df667e;}
 .toysi-checkbox-control input + label:before {content: ""; background: url("../images/sprite.png") no-repeat scroll 0 -20px transparent; display: block; width: 20px; height: 20px; cursor: pointer; position: absolute; top: 0; left: 3px;}
 .toysi-checkbox-control input:checked + label:before {background-position: 0 0;}
 
+.toysi-radio-control label {font-weight: normal; color: #666666; font-size: 12px;}
+.toysi-radio-control input {display: none;}
+.toysi-radio-control input + label {position: relative; padding-left: 36px;}
+.toysi-radio-control input + label:before {content: ""; background: url("../images/sprite.png") no-repeat scroll -64px -20px transparent; display: block; width: 20px; height: 20px; cursor: pointer; position: absolute; top: 0; left: 3px;}
+.toysi-radio-control input:checked + label:before {background-position: -64px 0;}
+
 .toysi-necessarily {position: relative;}
 .toysi-necessarily .toysi-point {position: absolute; top: 0; right: 5px;}
 .toysi-point {display: inline-block; width: 7px; height: 7px; background-color: #5ec9d7; border-radius: 50% 50% 50% 50%;}

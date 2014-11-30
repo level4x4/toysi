@@ -31,3 +31,20 @@
 .toysi-top-line table {height: 32px;}
 .toysi-cart-buttton-container {margin-top: 27px; margin-bottom: 38px;}
 .toysi-cart-buttton-container .btn {margin-left: 11px; margin-right: 11px;}
+
+.toysi-step-container {width: 839px; height: 48px; background-color: #e7e7e7; padding: 3px 3px 3px 3px; margin: 25px auto 0 auto;}
+.toysi-step-container ul {list-style: none; clear: both; padding: 0; margin: 0;}
+.toysi-step-container ul li {float: left; height: 42px; line-height: 42px; width: 122px; padding-left: 37px; margin-right: 34px; font-size: 24px; position: relative; color: #666666;}
+.toysi-step-container ul li.active {background-color: #d4da23; color: #72bf46;}
+.toysi-step-container ul li.active:after {content: ""; position: absolute; top: 0; right: -20px; width: 0; height: 0; border-top: 21px solid transparent; border-left: 20px solid #d4da23; border-bottom: 21px solid transparent;}
+
+.toysi-step-1,
+.toysi-step-2 {margin-top: 25px;}
+.toysi-table-step tr td:nth-child(1) {width: 104px;}
+
+.toysi-step-1 h2 {font-size: 24px;}
+
+.toysi-form-step-1 .toysi-btn,
+.toysi-form-step-1 .toysi-radio-control {margin-left: 34px;}
+
+.toysi-step {margin-bottom: 35px;}

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head lang="ru">
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css" />
+	<link rel="stylesheet" href="css/common.css" />
+	<link rel="stylesheet" href="css/oformlenie_zakaza.css" />
+</head>
+<body>
+<div class="toysi-page">
+	<div class="toysi-white-bg">
+		<div class="container text-center">
+			<a class="toysi-margin-logo-center" href="/"><img src="images/logo.png" width="127" height="94" title="" alt="" /></a>
+		</div>
+	</div>
+
+	<div class="toysi-blue-bg toysi-bottom-box-shadow toysi-title-page-height">
+		<div class="container clearfix">
+			<h1 class="toysi-title-page pull-left">Оформление заказа</h1>
+			<a class="toysi-title-link pull-right hide" href="#">Вернуться к выбору товаров</a>
+		</div>
+	</div>
+
+	<div class="toysi-white-bg toysi-cart-container">
+		<div class="container">
+			<div class="toysi-step-container">
+				<ul>
+					<li class="active">Шаг 1</li>
+					<li>Шаг 2</li>
+					<li>Шаг 3</li>
+				</ul>
+			</div>
+			<div class="toysi-step toysi-step-1 hide">
+				<table class="toysi-table-step">
+					<tr>
+						<td>Имя клиента:</td>
+						<td>Вася Пупкин</td>
+					</tr>
+					<tr>
+						<td>Адрес город:</td>
+						<td>Днепропетровск</td>
+					</tr>
+					<tr>
+						<td>Компания:</td>
+						<td>Факингтойспродакшен лимитед инкорпорейшн</td>
+					</tr>
+				</table>
+				<h2 class="_color_green">Способ доставки</h2>
+				<form class="toysi-form-step-1 form-horizontal">
+					<div class="form-group">
+						<div class="toysi-radio-control">
+							<input type="radio" name="typeDelivery" id="tsPickup" />
+							<label for="tsPickup">Самовывоз (самовывоз со склада компании собственным транспортом)</label>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="toysi-radio-control">
+							<input type="radio" name="typeDelivery" id="tsCourierService" />
+							<label for="tsCourierService">Доставка Курьерской Службой (отправка товара за счет покупателя курьерскими службами доставки: Новая Почта; Интайм; Деливери)</label>
+						</div>
+					</div>
+					<button type="button" class="toysi-btn toysi-btn-red btn">Далее</button>
+				</form>
+			</div>
+
+			<div class="toysi-step toysi-step-2 hide">
+				<table class="toysi-table-step">
+					<tr>
+						<td>Доставка:</td>
+						<td>Самовывоз</td>
+					</tr>
+					<tr>
+						<td>Имя клиента:</td>
+						<td>Вася Пупкин</td>
+					</tr>
+					<tr>
+						<td>Адрес город:</td>
+						<td>Днепропетровск</td>
+					</tr>
+					<tr>
+						<td>Компания:</td>
+						<td>Факингтойспродакшен лимитед инкорпорейшн</td>
+					</tr>
+				</table>
+				<h2 class="_color_green">Ваши заказы</h2>
+				<table class="table table-striped">
+					<col width="33">
+					<col width="119">
+					<col width="152">
+					<col width="367">
+					<col width="133">
+					<col width="135">
+
+					<thead>
+					<tr>
+						<th>№</th>
+						<th>Фото товара</th>
+						<th>Артикул</th>
+						<th>Наименование</th>
+						<th>Количество</th>
+						<th>Сумма</th>
+					</tr>
+					</thead>
+					<tbody>
+					<tr>
+						<td>1</td>
+						<td class="text-center"><img src="images/cart-image.png" width="55" height="40" alt="" title="" /></td>
+						<td>9744-9746</td>
+						<td>"Brick" "Ninja" (арт.9744-9746)</td>
+						<td>12 шт.</td>
+						<td class="toysi-sum">117.12</td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td class="text-center"><img src="images/cart-image.png" width="55" height="40" alt="" title="" /></td>
+						<td>672367543</td>
+						<td>Круг c музыкой и ручками ZOO</td>
+						<td>2 шт.</td>
+						<td class="toysi-sum">187.12</td>
+					</tr>
+					</tbody>
+				</table>
+				<div class="clearfix">
+					<div class="toysi-top-line pull-right">
+						<table>
+							<col width="71">
+							<col width="67">
+							<col width="151">
+							<thead>
+							<tr>
+								<th class="text-right">Итого</th>
+								<th></th>
+								<th class="toysi-outcome-sum">46,008.36 грн.</th>
+							</tr>
+							</thead>
+						</table>
+					</div>
+				</div>
+				<div class="toysi-cart-buttton-container">
+					<a href="#" class="toysi-btn toysi-btn-red btn">Обновить заказ</a>
+				</div>
+			</div>
+
+			<div class="toysi-step toysi-step-3">
+				<h2 class="_color_green">Спасибо за заказ</h2>
+				<p>Спасибо, Ваш заказ оформлен!<br/>В ближайшее время с вами свяжется менеджер.</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="toysi-white-bg toysi-height-5px"></div>
+	<div class="toysi-footer toysi-blue-bg">
+		<div class="container">
+			<p class="pull-left">© 2012–2014 Toysi.com.ua</p>
+			<ul class="toysi-nav pull-left">
+				<li class="active"><a>О Компании</a></li>
+				<li><a>Cотрудничество</a></li>
+				<li><a>Контакты</a></li>
+			</ul>
+			<div class="toysi-footer-contact pull-right">
+				<p>ул. Алма-Атинская, 35а.<br />Склад №7</p>
+			</div>
+			<div class="toysi-footer-contact pull-right">
+				<p>+38 067 543 03 40<br />+38 067 566 87 66<br />+38 067 628 41 00</p>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="js/jquery-1.11.1.js" type="text/javascript"></script>
+<script src="js/common.js" type="text/javascript"></script>
+<script src="js/oformlenie_zakaza.js" type="text/javascript"></script>
+</body>
+</html>

@@ -17,7 +17,10 @@
 
 	$(function(){
 		$.getScript('js/slider.js').done(function(){
-			$(selectors.toysiSliderContainer).slider();
+			$(selectors.toysiSliderContainer).slider({
+				btnNext: '.slider-nav-next',
+				btnPrev: '.slider-nav-prev'
+			});
 		}).fail(function(){
 			console.log('Fail load file slider.js');
 		});

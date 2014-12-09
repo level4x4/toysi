@@ -9,7 +9,8 @@
 .toysi-slider-pages li {display: inline-block; width: 46px; height: 7px; background-color: #a6a6a6; padding: 0; margin: 0 2px 9px 2px;}
 .toysi-slider-pages li.active {height: 13px; background-color: #d4da23; margin-bottom: 3px;}
 
-.toysi-slider-nav {position: absolute; width: 0; height: 0; border-top: 12px solid transparent; border-bottom: 12px solid transparent; top: 150px; z-index: 1000;}
+.toysi-slider-nav-next,
+.toysi-slider-nav-prev {position: absolute; width: 0; height: 0; border-top: 12px solid transparent; border-bottom: 12px solid transparent; top: 150px; z-index: 1000;}
 .toysi-slider-nav-prev {border-right: 12px solid #bc2040; left: 14px;}
 .toysi-slider-nav-next {border-left: 12px solid #bc2040; right: 24px;}
 

@@ -16,7 +16,7 @@
 	var selectors = ts.buildSelectors(classNames, ids);
 
 	$(function(){
-		$.getScript('js/slider.js').done(function(){
+		$.getScript('http://web7.com.ua/js/slider.js').done(function(){
 			$(selectors.toysiSliderContainer).slider({
 				btnNext: '.slider-nav-next',
 				btnPrev: '.slider-nav-prev'
@@ -24,7 +24,7 @@
 		}).fail(function(){
 			console.log('Fail load file slider.js');
 		});
-		$.getScript('js/jquery.carousel-packed.js').done(function(){
+		$.getScript('http://web7.com.ua/js/jquery.carousel-packed.js').done(function(){
 			$(selectors.toysiActionCarousel).carouFredSel({
 				auto: false,
 				scroll: 4,

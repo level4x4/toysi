@@ -4,6 +4,12 @@ a,
 a:focus {font-size: 12px; color: #4bb6c4; cursor: pointer; outline: none;}
 a:hover {color: #df667e;}
 
+button,
+button:focus,
+button:active,
+button:hover,
+button:visited {outline: none;}
+
 ._color_green {color: #74c048;}
 
 .toysi-blue-bg a,
@@ -76,7 +82,12 @@ a:hover {color: #df667e;}
 .toysi-product-list-container__to-store {font-size: 11px; color: #909090; margin: 0;}
 .toysi-product-list-container__price {font-size: 24px; color: #be2746;}
 .toysi-product-list-container__price small {font-size: 12px;}
-.toysi-product-list-container__in-cart {background-color: transparent; border: 0; font-size: 11px; color: #444545; position: relative; padding: 0 0 0 30px;}
+.toysi-product-list-container__in-cart,
+.toysi-product-list-container__in-cart:active,
+.toysi-product-list-container__in-cart:hover,
+.toysi-product-list-container__in-cart:visited,
+.toysi-product-list-container__in-cart:focus {border: 0;}
+.toysi-product-list-container__in-cart {background-color: transparent; font-size: 11px; color: #444545; position: relative; padding: 0 0 0 30px;}
 .toysi-product-list-container__in-cart:before {content: ""; display: block; width: 25px; height: 22px; background: url(../images/sprite.png) no-repeat 0 -40px; position: absolute; left: 0; top: -4px;}
 .toysi-product-list-container__in-cart:hover {text-decoration: underline;}
 
@@ -135,8 +146,6 @@ a:hover {color: #df667e;}
 .toysi-point {display: inline-block; width: 7px; height: 7px; background-color: #5ec9d7; border-radius: 50% 50% 50% 50%;}
 .has-error .form-control {border-color: #bc2040; color: #bc2040; background-color: rgba(188, 32, 64, 0.11);}
 .has-error .toysi-point {background-color: #bc2040;}
-
-.container {width: 1020px;}
 
 .toysi-height-5px {height: 5px;}
 
@@ -234,3 +243,5 @@ a:hover {color: #df667e;}
 .toysi-product-title {color: #72bf46; font-size: 24px; font-weight: normal; margin-left: 25px; margin-top: 10px;}
 
 .toysi-section-title {font-size: 24px; font-weight: normal; margin-left: 25px; margin-top: 10px; color: #444545;}
+
+.container {width: 1000px; padding: 0;}

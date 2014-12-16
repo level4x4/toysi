@@ -3,7 +3,6 @@
  */
 (function(){
 	var classNames = {
-		toysiSliderContainer: 'toysi-slider-container',
 		toysiActionCarousel: 'toysi-action-carousel',
 		toysiCarouselControlPrev: 'toysi-carousel-control__prev',
 		toysiCarouselControlNext: 'toysi-carousel-control__next',
@@ -16,15 +15,7 @@
 	var selectors = ts.buildSelectors(classNames, ids);
 
 	$(function(){
-		$.getScript('js/slider.js').done(function(){
-			$(selectors.toysiSliderContainer).slider({
-				btnNext: '.slider-nav-next',
-				btnPrev: '.slider-nav-prev'
-			});
-		}).fail(function(){
-			console.log('Fail load file slider.js');
-		});
-		$.getScript('js/jquery.carousel-packed.js').done(function(){
+		$.getScript('js/jquery.carouFredSel-6.2.1-packed.js').done(function(){
 			$(selectors.toysiActionCarousel).carouFredSel({
 				auto: false,
 				scroll: 4,
@@ -33,7 +24,7 @@
 				pagination: selectors.toysiCarouselControlPager
 			});
 		}).fail(function(){
-			console.log('Fail load file jquery.carousel-packed.js');
+			console.log('Fail load file jquery.carouFredSel-6.2.1-packed.js');
 		});
 	});
 
